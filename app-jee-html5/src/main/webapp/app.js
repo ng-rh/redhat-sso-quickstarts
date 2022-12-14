@@ -15,7 +15,8 @@
  * limitations under the License.
  */
 var keycloak = new Keycloak();
-var serviceUrl = 'http://127.0.0.1:8080/service'
+var serviceUrl = 'http://nodejs-service-app.apps.cluster-htwhm.htwhm.sandbox2988.opentlc.com/service'
+//var serviceUrl = 'http://127.0.0.1:8080/service'
 
 function notAuthenticated() {
     document.getElementById('not-authenticated').style.display = 'block';
