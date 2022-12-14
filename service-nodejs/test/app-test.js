@@ -8,7 +8,7 @@ const tokenRequester = require('keycloak-request-token');
 
 test('Should test public route with no credentials.', t => {
   const options = {
-    'endpoint': 'http://localhost:3000/service/public'
+    'endpoint': 'http://localhost:8080/service/public'
   };
 
   roi.get(options)
@@ -24,7 +24,7 @@ test('Should test public route with no credentials.', t => {
 
 test('Should test secured route with no credentials.', t => {
   const options = {
-    'endpoint': 'http://localhost:3000/service/secured'
+    'endpoint': 'http://localhost:8080/service/secured'
   };
 
   roi.get(options)
