@@ -1,0 +1,10 @@
+{
+  "realm": "quickstart",
+  "auth-server-url": "https://keycloak-sso.apps.cluster-htwhm.htwhm.sandbox2988.opentlc.com/auth/",
+  "ssl-required": "external",
+  "resource": "app-jsp",
+  "credentials": {
+    "secret": "NK8l87pesUhHaxQcgDyUo4vYR0G1avbd"
+  },
+  "confidential-port": 0
+}
